@@ -1,8 +1,7 @@
 "use strict";
 
-/// <reference path="../typings/browser.d.ts"/>
-
 import {Environment} from "./environment";
+import "./typings"; // imported in order to make typings available for client code
 
 export class Foo {
 	public constructor() {

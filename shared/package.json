@@ -41,5 +41,5 @@
 	"typings-install": "typings install"
   },
   "main": "./dist/index.js",
-  "typings": "./dist/typings/shared.d.ts"
+  "typings": "./dist/index.d.ts"
 }
