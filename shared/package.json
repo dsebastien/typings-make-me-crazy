@@ -1,0 +1,45 @@
+{
+  "name": "shared",
+  "description": "shared",
+  "author": {
+	"email": "seb@dsebastien.net",
+	"name": "dSebastien",
+	"url": "https://www.dsebastien.net"
+  },
+  "contributors": [],
+  "homepage": "https://dev/null",
+  "bugs": "https://dev/null",
+  "repository": {
+	"type": "git",
+	"url": "https://dev/null"
+  },
+  "private": true,
+  "license": "MIT",
+  "version": "0.0.1",
+  "keywords": [],
+  "peerDependencies": {
+	"typescript": "^1.9.0-dev.20160420"
+  },
+  "dependencies": {
+	"angular": "^1.5.2"
+  },
+  "devDependencies": {
+	"rimraf": "^2.5.2",
+	"typescript": "^1.9.0-dev.20160420",
+	"typings": "^0.7.12"
+  },
+  "engines": {
+	"node": ">=4.3.0",
+	"npm": ">=3.7.3"
+  },
+  "scripts": {
+	"clean": "rimraf dist",
+	"setup": "npm install --no-optional && npm run typings-install",
+	"build": "npm run clean && npm run tsc",
+	"tsc": "tsc",
+	"typings": "typings",
+	"typings-install": "typings install"
+  },
+  "main": "./dist/index.js",
+  "typings": "./dist/typings/shared.d.ts"
+}

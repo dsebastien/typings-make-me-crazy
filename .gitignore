@@ -1,0 +1,10 @@
+app/.idea
+shared/.idea
+app/node_modules
+shared/node_modules
+app/dist
+shared/dist
+app/typings
+shared/typings
+
+*.log
