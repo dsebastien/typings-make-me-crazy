@@ -26,7 +26,7 @@
   "devDependencies": {
 	"rimraf": "^2.5.2",
 	"typescript": "^1.9.0-dev.20160420",
-	"typings": "^0.7.12"
+	"typings": "^0.8.1"
   },
   "engines": {
 	"node": ">=4.3.0",
