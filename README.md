@@ -1,4 +1,7 @@
 # About
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/dsebastien/typings-make-me-crazy.svg)](https://greenkeeper.io/)
+
 This is a proof of concept to create a shared npm library/framework to be reused by n applications.
 
 This repository contains two separate node modules:
